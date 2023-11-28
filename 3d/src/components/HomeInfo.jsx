@@ -16,19 +16,19 @@ const renderContent = {
     1: (
         <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>Hi, I am <span className='font-semibold'>Viana</span> 👋
         <br />
-        A software Engineer from California.
+        A software Engineer from California. <p className='text-black font-semibold'>Use the arrow keys to go around the Island.</p> 
         </h1>
     ),
     2: (
         <InfoBox
-            text="Many skills acquired over a multi-facetted career."
+            text="I've acquired many skills over a multi-facetted career. Over 10 years of experience in marketing, brand development, and program engineering."
             link="/about"
             btnText="Learn More"
         />
     ),
     3: (
         <InfoBox
-            text="Led multiple projects to success over the years. Curious about the impact?"
+            text="Multiple projects built to success over the years. Curious about the impact?"
             link="/projects"
             btnText="View My Portfolio"
         />
